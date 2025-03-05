@@ -5,5 +5,5 @@
 local nukeinvite = {'SERVER NUKED BY 64SQUAD -> .gg/wtyYkVXW'}
 while true do
     wait(.01)
-    game.ReplicatedStorage.Events:WaitForChild('PlayerChatted'):FireServer(invite[math.random(1, #invite)], nil, 'Innocent', false, false, false)
+    game.ReplicatedStorage.Events:WaitForChild('PlayerChatted'):FireServer(nukeinvite[math.random(1, #nukeinvite)], nil, 'Innocent', false, false, false)
 end
