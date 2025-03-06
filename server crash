@@ -1,0 +1,1 @@
+game.Players.LocalPlayer:kick("Gamemode switch detected! Ban expires in: 9999999 days.")
